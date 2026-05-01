@@ -64,11 +64,11 @@ Permite a los usuarios navegar entre personajes, ver sus características y expl
 ## 🧪 Instalación
 # Clonar repositorio
 ```
-git clone https://github.com/tu-usuario/rick-morty-web.git
+git clone https://github.com/isairey/Web-Ryck-Morty.git
 ```
 # Entrar al proyecto
 ```
-cd rick-morty-web
+cd Web-Ryck-Morty
 ```
 # Instalar dependencias
 ```
