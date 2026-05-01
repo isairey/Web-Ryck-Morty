@@ -1,32 +1,97 @@
-# React + TypeScript + Vite
+# 🧪 Rick & Morty Web App
 
-Puedes usar este link https://luisorea.github.io/Rick-Morty-Web/ para ver la pagina web sin necesidad de descargar.
+Aplicación web interactiva basada en el universo de **Rick & Morty**, desarrollada con tecnologías modernas para explorar personajes, episodios y dimensiones de forma dinámica 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🌐 Demo en vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 https://luisorea.github.io/Rick-Morty-Web/
 
-## Expanding the ESLint configuration
+> Puedes acceder directamente desde el navegador sin necesidad de instalar nada.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Descripción
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+**Rick & Morty Web App** es una aplicación construida con React + TypeScript que consume una API para mostrar información detallada del universo de la serie.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Permite a los usuarios navegar entre personajes, ver sus características y explorar contenido de forma rápida y visual.
+
+---
+
+## ✨ Características
+
+- 🧑‍🚀 Listado de personajes
+- 🔎 Búsqueda y filtrado dinámico
+- 📄 Detalles de cada personaje
+- 🌌 Navegación fluida entre vistas
+- ⚡ Interfaz rápida gracias a Vite
+- 📱 Diseño responsive
+
+---
+
+## 🧱 Tecnologías utilizadas
+
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-Typed-blue?style=for-the-badge&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-Build-purple?style=for-the-badge&logo=vite)
+![CSS](https://img.shields.io/badge/CSS-Styling-blue?style=for-the-badge&logo=css3)
+
+- **React** → Construcción de interfaz  
+- **TypeScript** → Tipado seguro  
+- **Vite** → Entorno de desarrollo rápido  
+- **CSS** → Estilos  
+
+---
+
+## 🏗️ Estructura del Proyecto
+
+```bash
+📦 rick-morty-web
+ ┣ 📂 src
+ ┃ ┣ 📂 components
+ ┃ ┣ 📂 pages
+ ┃ ┣ 📂 services
+ ┃ ┗ 📜 main.tsx
+ ┣ 📂 public
+ ┣ 📜 index.html
+ ┣ 📜 package.json
+ ┗ 📜 README.md
+🧪 Instalación
+# Clonar repositorio
+git clone https://github.com/tu-usuario/rick-morty-web.git
+
+# Entrar al proyecto
+cd rick-morty-web
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en desarrollo
+npm run dev
+⚙️ Scripts disponibles
+npm run dev      # Ejecuta en modo desarrollo
+npm run build    # Genera build para producción
+npm run preview  # Vista previa del build
+🧠 ESLint & Configuración
+
+Para mejorar el proyecto en producción:
+
+Usa reglas estrictas de TypeScript
+Configura parserOptions con tu tsconfig
+Agrega plugins como:
+plugin:@typescript-eslint/recommended-type-checked
+plugin:react/recommended
+📈 Estado del Proyecto
+
+🟢 Activo
+🚧 En mejora continua
+
+👨‍💻 Autor
+
+Isai Reyes
+
+📄 Licencia
+
+MIT License
