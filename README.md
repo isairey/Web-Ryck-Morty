@@ -6,7 +6,7 @@ Aplicación web interactiva basada en el universo de **Rick & Morty**, desarroll
 
 ## 🌐 Demo en vivo
 
-🔗 https://luisorea.github.io/Rick-Morty-Web/
+🔗 https://isairp1.github.io/Rick-Morty-Web/
 
 > Puedes acceder directamente desde el navegador sin necesidad de instalar nada.
 
@@ -58,40 +58,61 @@ Permite a los usuarios navegar entre personajes, ver sus características y expl
  ┣ 📜 index.html
  ┣ 📜 package.json
  ┗ 📜 README.md
-🧪 Instalación
+```
+---
+
+## 🧪 Instalación
 # Clonar repositorio
+```
 git clone https://github.com/tu-usuario/rick-morty-web.git
-
+```
 # Entrar al proyecto
+```
 cd rick-morty-web
-
+```
 # Instalar dependencias
+```
 npm install
-
+```
 # Ejecutar en desarrollo
+```
 npm run dev
-⚙️ Scripts disponibles
-npm run dev      # Ejecuta en modo desarrollo
-npm run build    # Genera build para producción
-npm run preview  # Vista previa del build
-🧠 ESLint & Configuración
+```
+---
+
+## ⚙️ Scripts disponibles
+
+- npm run dev      # Ejecuta en modo desarrollo
+- npm run build    # Genera build para producción
+- npm run preview  # Vista previa del build
+
+---
+
+## 🧠 ESLint & Configuración
 
 Para mejorar el proyecto en producción:
 
-Usa reglas estrictas de TypeScript
-Configura parserOptions con tu tsconfig
-Agrega plugins como:
-plugin:@typescript-eslint/recommended-type-checked
-plugin:react/recommended
-📈 Estado del Proyecto
+- Usa reglas estrictas de TypeScript
+- Configura parserOptions con tu tsconfig
+- Agrega plugins como:
+- plugin:@typescript-eslint/recommended-type-checked
+- plugin:react/recommended
 
-🟢 Activo
-🚧 En mejora continua
+---
 
-👨‍💻 Autor
+## 📈 Estado del Proyecto
 
-Isai Reyes
+- 🟢 Activo
+- 🚧 En mejora continua
 
-📄 Licencia
+---
+
+## 👨‍💻 Autor
+
+**Isai Reyes**
+
+---
+
+## 📄 Licencia
 
 MIT License
